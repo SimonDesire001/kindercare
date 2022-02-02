@@ -3,9 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//register
+#include "register/register.c"
 //login
 #include "login/pupil_login.c"
+
 
 // assignments
 
@@ -52,6 +54,7 @@ void klpCommands()
     {
       printf("\n\n");
       printf("register\n");
+      registe();
       printf("\n\n");
     }
     else if (strcmp(command, logout) == 0)
