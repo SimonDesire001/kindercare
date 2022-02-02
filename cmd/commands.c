@@ -4,7 +4,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+//login
+#include "login/pupil_login.c"
+
 // assignments
+
 #include "assignments/assignment.c"
 #include "assignments/assignmentscore.c"
 
@@ -41,6 +45,7 @@ void klpCommands()
     {
       printf("\n\n");
       printf("login\n");
+      pupil_login();
       printf("\n\n");
     }
     else if (strcmp(command, signup) == 0)

@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "register.c"
-#include "login.c"
+#include "register/register.c"
+#include "login/login.c"
 int main()
 {
 
 
 
-int cho;
+int ch;
 system("color 0b");
 
 printf("press '1' for register\n  press '2' for login\n\n");
-scanf("%d",&cho);
+scanf("%d",&ch);
 
-if(cho==1)
+if(ch==1)
   {
     system("cls");
     registe();
   }
-else if(cho==2)
+else if(ch==2)
   {
     system("cls");
     login();
