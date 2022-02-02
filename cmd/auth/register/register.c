@@ -14,7 +14,7 @@ void registe()
 FILE *fptr;
     FILE *log;
     log=fopen("login.txt","w");
-    fptr = fopen("cmd/auth/register/register.txt", "a");
+    fptr = fopen("C:/xampp/htdocs/kindercare/cmd/auth/register/register.txt", "a");
     struct login l;
 
 
