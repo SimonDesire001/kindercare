@@ -43,7 +43,7 @@ char password[50];
     char name[50];
     char fname[50];
 char lname[50];
-    int mark;
+    
 
     fptr = fopen("cmd/Auth/Register/register.txt", "a");/*  open for writing */
     if (fptr == NULL)
